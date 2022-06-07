@@ -1,0 +1,50 @@
+
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<div id="calculadora">
+	<div id="firma">
+		<div id="nombre">
+			<span >CASIO</span>
+		</div>
+		<div id="made">
+			<span>Made By </span ><span style="color:#acb4c1 !important;">Tobeal</span>
+		</div>
+		
+	</div>
+	<div id="pantalla">
+		<div id="texto">
+			<span id="textoPantalla" class="blink">_</span>
+		</div>
+		<div id="textoResultado">
+			<span id="textoPantalla" >0.</span>
+		</div>
+	</div>
+	<div id="calculos">
+		<div class="boton" onclick="cambiarValor('7')">7</div>
+		<div class="boton" onclick="cambiarValor('8')">8</div>
+		<div class="boton" onclick="cambiarValor('9')">9</div>
+		<div class="boton" onclick="cambiarValor('4')">4</div>
+		<div class="boton" onclick="cambiarValor('5')">5</div>
+		<div class="boton" onclick="cambiarValor('6')">6</div>
+		<div class="boton" onclick="cambiarValor('1')">1</div>
+		<div class="boton" onclick="cambiarValor('2')">2</div>
+		<div class="boton" onclick="cambiarValor('3')">3</div>
+		<div class="boton" onclick="cambiarValor('0')">0</div>
+		<div class="boton" onclick="cambiarValor('.')">.</div>
+		<div class="botonTiktok" onclick="cambiarValorTiktok('@tobeal')">tiktok</div>
+		<div class="boton" onclick="cambiarValor('x')">×</div>
+		<div class="boton" onclick="cambiarValor('÷')">÷</div>
+		<div class="botonDel" onclick="borrarValores()" >AC</div>
+		<div class="boton" onclick="cambiarValor('+')">+</div>
+		<div class="boton" onclick="cambiarValor('-')">-</div>
+		<div class="boton" onclick="cambiarResultado()">=</div>
+	</div>
+</div>
+
+<script src="example.js" ></script>
+</body>
+</html>
+

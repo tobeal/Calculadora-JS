@@ -1,0 +1,171 @@
+<style>
+ .blink {
+    animation: blink-animation 5s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+#calculadora{
+	display: block;
+	background: #3a5872;
+	border: 2px solid #2f475c;
+	border-radius: 25px;
+/*    box-shadow: 0px 0px 0px #000;
+*/   width: 20%;
+	height: 45%;
+	position: absolute;
+	top: 25%;
+  	left: 42.5%;
+
+}
+#nombre{
+	background-repeat: no-repeat;
+	background-size: 25%;
+	background-image: url("descarga.png");
+   	font-family: 'Play', 'Russo One', sans-serif;
+    font-size: 1.4em;
+    color: transparent;
+    -webkit-user-select: none;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: 4%;
+}
+#made{
+	background-repeat: no-repeat;
+	background-size: 25%;
+
+   	font-family: 'Play', 'Russo One', sans-serif;
+    font-size: 0.7em;
+    color: #223545;
+    -webkit-user-select: none;
+    font-weight: bold;
+    margin-left: 70%;
+    margin-top: 2%;
+    
+}
+#pantalla{
+	background-color: #B0C6B8;
+	border: 2px solid #829489  ;
+	border-radius: 25px;
+	width: 90%;
+	height: 20%;
+	position: absolute;
+	display: inline-block;
+	top: 15%;
+  	left: 5%;
+}
+
+#texto{
+	position: absolute;
+	display: inline-block;
+	font-family: 'Play', 'Russo One', sans-serif;
+	top: 5%;
+  	left: 5%;
+  	font-size: 2.3em;
+
+}
+#textoResultado{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+  	left: 70%;
+  	font-size: 2.3em;
+
+}
+
+#calculos{
+	background-color: #426685;
+	border: 2px solid #345069  ;
+	border-radius: 10px;
+	position: absolute;
+	top: 42%;
+  	left: 15%;
+  	right: 15%;
+  	padding-bottom: 2%;
+}
+.boton{
+	background-color: #6f808f;
+
+	color: #fff;
+	border: 2px solid #5a6773  ;
+	border-radius: 7px;
+	width: 20%;
+	height: 8%;
+	display: inline-block;
+  	text-align: center;
+  	font-family: 'Play', 'Russo One', sans-serif;
+    font-size: 1.4em;
+    margin-left: 8%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.boton:hover{
+	background-color: #8499ab;
+}
+
+.boton:active{
+	background-color: #647482;
+	border: 2px solid #515f6b;
+}
+
+.botonDel{
+	background-color: red;
+	color: #fff;
+	border: 2px solid #426685;
+	border-radius: 7px;
+	width: 20%;
+	height: 10%;
+	display: inline-block;
+  	text-align: center;
+  	font-family: 'Play', 'Russo One', sans-serif;
+    font-size: 1.4em;
+    margin-left: 8%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.botonDel:hover{
+	background-color: #e6505a;
+}
+.botonDel:active{
+	background-color: #941820;
+	border: 2px solid #36090c;
+	
+}
+
+
+.botonTiktok{
+	background-color: black;
+	background-image: url('tiktok.png');
+	background-repeat: no-repeat;
+	background-size: 45%;
+	color:transparent;
+	background-position: 50% 30%;
+	border: 2px solid black;
+	border-radius: 7px;
+	width: 20%;
+	height: 10%;
+	display: inline-block;
+  	text-align: center;
+  	font-family: 'Play', 'Russo One', sans-serif;
+    font-size: 1.4em;
+    margin-left: 8%;
+    margin-top: 2%;
+    cursor: pointer;
+}
+.botonTiktok:hover{
+	background-color: #1c1c1c;
+}
+.botonTiktok:active{
+	background-color: #303030;
+	border: 2px solid #1c1c1c;
+	
+}
+</style>
